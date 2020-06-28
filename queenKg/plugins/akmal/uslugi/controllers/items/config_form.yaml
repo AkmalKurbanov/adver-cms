@@ -1,0 +1,10 @@
+name: Items
+form: $/akmal/uslugi/models/item/fields.yaml
+modelClass: Akmal\Uslugi\Models\Item
+defaultRedirect: akmal/uslugi/items
+create:
+    redirect: 'akmal/uslugi/items/update/:id'
+    redirectClose: akmal/uslugi/items
+update:
+    redirect: akmal/uslugi/items
+    redirectClose: akmal/uslugi/items

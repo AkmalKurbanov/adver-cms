@@ -1,0 +1,33 @@
+1593371262a:1:{s:23:"layouts/main_slider.htm";a:7:{s:8:"fileName";s:23:"layouts/main_slider.htm";s:7:"content";s:608:"[builderList mainslider]
+modelClass = "Akmal\Mainslider\Models\Sliders"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[viewBag]
+==
+<section class="banner" id="banner">
+    <div class="container">
+      <div class="banner__slider">
+        <div class="owl-carousel slider-1 owl-theme banner__position">
+          {% for item in mainslider.records %}
+          <h1 class="banner__title">{{item.title}}</h1>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>";s:5:"mtime";i:1593369298;s:6:"markup";s:348:"<section class="banner" id="banner">
+    <div class="container">
+      <div class="banner__slider">
+        <div class="owl-carousel slider-1 owl-theme banner__position">
+          {% for item in mainslider.records %}
+          <h1 class="banner__title">{{item.title}}</h1>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>";s:4:"code";N;s:22:"builderList mainslider";a:8:{s:10:"modelClass";s:31:"Akmal\Mainslider\Models\Sliders";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:7:"viewBag";a:0:{}}}

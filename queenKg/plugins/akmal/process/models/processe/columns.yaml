@@ -1,0 +1,13 @@
+columns:
+    title:
+        label: 'Заголовок процесса'
+        type: text
+    description:
+        label: 'Описание процесса'
+        type: text
+    icon:
+        label: 'Иконка процесса'
+        type: text
+    order:
+        label: 'Порядок процесса'
+        type: number

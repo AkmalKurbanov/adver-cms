@@ -1,0 +1,10 @@
+name: Rewiews
+form: $/akmal/reviews/models/review/fields.yaml
+modelClass: Akmal\Reviews\Models\Review
+defaultRedirect: akmal/reviews/rewiews
+create:
+    redirect: 'akmal/reviews/rewiews/update/:id'
+    redirectClose: akmal/reviews/rewiews
+update:
+    redirect: akmal/reviews/rewiews
+    redirectClose: akmal/reviews/rewiews

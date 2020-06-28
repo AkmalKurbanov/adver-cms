@@ -1,0 +1,12 @@
+list: $/akmal/process/models/processe/columns.yaml
+modelClass: Akmal\Process\Models\Processe
+title: Process
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'akmal/process/process/update/:id'

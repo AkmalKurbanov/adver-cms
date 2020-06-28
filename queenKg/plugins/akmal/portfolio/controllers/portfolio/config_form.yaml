@@ -1,0 +1,10 @@
+name: Portfolio
+form: $/akmal/portfolio/models/work/fields.yaml
+modelClass: Akmal\Portfolio\Models\Work
+defaultRedirect: akmal/portfolio/portfolio
+create:
+    redirect: 'akmal/portfolio/portfolio/update/:id'
+    redirectClose: akmal/portfolio/portfolio
+update:
+    redirect: akmal/portfolio/portfolio
+    redirectClose: akmal/portfolio/portfolio

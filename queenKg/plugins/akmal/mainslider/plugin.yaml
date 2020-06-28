@@ -1,0 +1,11 @@
+plugin:
+    name: 'akmal.mainslider::lang.plugin.name'
+    description: 'akmal.mainslider::lang.plugin.description'
+    author: Akmal
+    icon: oc-icon-sliders
+    homepage: ''
+navigation:
+    main-slider:
+        label: 'Главный слайдер'
+        url: akmal/mainslider/mainslider
+        icon: icon-sliders

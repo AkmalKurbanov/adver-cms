@@ -1,0 +1,4 @@
+title: Customers
+modelClass: Akmal\Customers\Models\Customer
+toolbar:
+    buttons: reorder_toolbar

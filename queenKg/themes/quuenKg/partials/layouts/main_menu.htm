@@ -1,0 +1,17 @@
+[viewBag]
+
+[staticMenu]
+code = "main_menu"
+==
+{% set items = staticMenu.menuItems() %}
+
+
+<ul class="header__menu">
+     {% for item in items %}
+      <li class="header__list"><a href="{{ item.url }}" class="header__link">{{ item.title }}</a></li>
+      {% endfor %}
+
+  <!-- <li class="header__list"><a href="#" class="header__link header__language"><img
+        src="{{ 'assets/images/banner/flag.png'|theme }}" alt="#" class="header__flag"> <span
+        class="header__country">EN</span></a></li> -->
+</ul>

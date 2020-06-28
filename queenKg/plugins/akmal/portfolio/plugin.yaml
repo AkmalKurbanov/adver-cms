@@ -1,0 +1,11 @@
+plugin:
+    name: 'akmal.portfolio::lang.plugin.name'
+    description: 'akmal.portfolio::lang.plugin.description'
+    author: Akmal
+    icon: oc-icon-photo
+    homepage: ''
+navigation:
+    Portfolio:
+        label: Портфолио
+        url: akmal/portfolio/portfolio
+        icon: icon-image

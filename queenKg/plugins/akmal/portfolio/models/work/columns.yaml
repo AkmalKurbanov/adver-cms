@@ -1,0 +1,10 @@
+columns:
+    order:
+        label: 'Порядок работы'
+        type: text
+    url:
+        label: 'Ссылка на работу '
+        type: text
+    image:
+        label: 'Изображение работы '
+        type: text

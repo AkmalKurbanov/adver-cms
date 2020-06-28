@@ -1,0 +1,4 @@
+title: Rewiews
+modelClass: Akmal\Reviews\Models\Review
+toolbar:
+    buttons: reorder_toolbar

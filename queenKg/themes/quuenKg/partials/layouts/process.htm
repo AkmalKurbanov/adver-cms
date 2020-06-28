@@ -1,0 +1,32 @@
+[builderList processes]
+modelClass = "Akmal\Process\Models\Processe"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[viewBag]
+==
+<section class="process lightbg" id="process">
+    <div class="container">
+      <div class="title">
+        <div class="title__rectangle"></div>
+        <div><span class="title__secondary">Процесс</span> <span class="title__main">Процесс создания проекта</span>
+        </div>
+      </div>
+      <section class="process__group">
+
+        {% for item in processes.records %}
+        <ul class="process__object">
+          <li class="process__number">{{item.order}}</li>
+          <li class="process__icon"><span class="{{item.icon}}"></span></li>
+          <li class="process__title">{{item.title}}</li>
+          <li class="process__subtitle">{{item.description}}</li>
+        </ul>
+        {% endfor %}
+      </section>
+    </div>
+  </section>

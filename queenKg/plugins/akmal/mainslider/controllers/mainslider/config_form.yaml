@@ -1,0 +1,10 @@
+name: MainSlider
+form: $/akmal/mainslider/models/sliders/fields.yaml
+modelClass: Akmal\Mainslider\Models\Sliders
+defaultRedirect: akmal/mainslider/mainslider
+create:
+    redirect: 'akmal/mainslider/mainslider/update/:id'
+    redirectClose: akmal/mainslider/mainslider
+update:
+    redirect: akmal/mainslider/mainslider
+    redirectClose: akmal/mainslider/mainslider

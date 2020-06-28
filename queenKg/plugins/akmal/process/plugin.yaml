@@ -1,0 +1,11 @@
+plugin:
+    name: 'akmal.process::lang.plugin.name'
+    description: 'akmal.process::lang.plugin.description'
+    author: Akmal
+    icon: oc-icon-building
+    homepage: ''
+navigation:
+    Process:
+        label: 'Процесс создания'
+        url: akmal/process/process
+        icon: icon-building

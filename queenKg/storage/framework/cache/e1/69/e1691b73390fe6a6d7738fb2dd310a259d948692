@@ -1,0 +1,53 @@
+1593371535a:1:{s:22:"layouts/advantages.htm";a:7:{s:8:"fileName";s:22:"layouts/advantages.htm";s:7:"content";s:1024:"[builderList advantages]
+modelClass = "Akmal\Advantages\Models\Advantage"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[viewBag]
+==
+<section class="advantages darkbg" id="advantages">
+   <div class="container">
+     <div class="title">
+       <div class="title__rectangle"></div>
+       <div><span class="title__secondary">Преимущества</span> <span class="title__main">Мы знаем свои сильные
+           стороны</span>
+       </div>
+     </div>
+     <div class="advantages__group">
+
+       {% for item in advantages.records %}
+       <ul class="advantages__object">
+         <li class="advantages__icon"><span class="{{item.icon}}"></span></li>
+         <li class="advantages__title">{{item.title}}</li>
+         <li class="advantages__subtitle">{{item.description}}</li>
+       </ul>
+       {% endfor %}
+
+     </div>
+   </div>
+ </section>";s:5:"mtime";i:1593369601;s:6:"markup";s:762:"<section class="advantages darkbg" id="advantages">
+   <div class="container">
+     <div class="title">
+       <div class="title__rectangle"></div>
+       <div><span class="title__secondary">Преимущества</span> <span class="title__main">Мы знаем свои сильные
+           стороны</span>
+       </div>
+     </div>
+     <div class="advantages__group">
+
+       {% for item in advantages.records %}
+       <ul class="advantages__object">
+         <li class="advantages__icon"><span class="{{item.icon}}"></span></li>
+         <li class="advantages__title">{{item.title}}</li>
+         <li class="advantages__subtitle">{{item.description}}</li>
+       </ul>
+       {% endfor %}
+
+     </div>
+   </div>
+ </section>";s:4:"code";N;s:22:"builderList advantages";a:8:{s:10:"modelClass";s:33:"Akmal\Advantages\Models\Advantage";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:7:"viewBag";a:0:{}}}

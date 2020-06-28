@@ -1,0 +1,18 @@
+fields:
+    reviewer:
+        label: 'Фото комментатора'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    name:
+        label: 'Имя комментатора'
+        span: auto
+        type: text
+    text:
+        label: Комментарий
+        span: auto
+        type: text

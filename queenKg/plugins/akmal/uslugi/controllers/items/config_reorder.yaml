@@ -1,0 +1,4 @@
+title: Items
+modelClass: Akmal\Uslugi\Models\Item
+toolbar:
+    buttons: reorder_toolbar

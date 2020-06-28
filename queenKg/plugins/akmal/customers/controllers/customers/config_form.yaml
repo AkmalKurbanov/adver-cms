@@ -1,0 +1,10 @@
+name: Customers
+form: $/akmal/customers/models/customer/fields.yaml
+modelClass: Akmal\Customers\Models\Customer
+defaultRedirect: akmal/customers/customers
+create:
+    redirect: 'akmal/customers/customers/update/:id'
+    redirectClose: akmal/customers/customers
+update:
+    redirect: akmal/customers/customers
+    redirectClose: akmal/customers/customers

@@ -1,0 +1,51 @@
+name: Queen.kg
+description: 'Digital Queen. Разработка и продвижение веб-сайтов'
+author: Akmal
+
+
+form:
+  fields:
+    site_name:
+      label: Наименование сайта
+      comment: Номинование используется в шапке сайта и в поисковых системах
+      default: Digital Queen
+    first_phone:
+      label: Главный телефонный номер
+      comment: Обязательное поле
+      default: +996 555 833 339
+    second_phone:
+      label: Необязательный телефонный номер
+      comment: Обязательное поле
+      default: +996 772 333 327
+    address:
+      label: Адрес офиса
+      comment: Выводится на странице контактов
+      default: Кыргызская Республика, г.Бишкек,пр. Чуй 147\1
+    footer_address:
+      label: Краткий адрес офиса
+      comment: Выводится в шапке и подвале сайта
+      default: Кыргызская Республика, г.Бишкек,пр. Чуй 147\1
+    work_time:
+      label: Рабочее время
+      comment: Выводится на странице контактов
+      default: 10:00 - 19:00
+    email:
+      type: email
+      label: Електронная почта  сайта
+      comment: Официальная электронная почта компании
+      default: office@queen.kg
+    facebook:
+      label: Введите ссылку на facebook страницу компании
+      default:  #
+    instagram:
+      label: Введите ссылку на instagram страницу компании
+      default:  #
+    twitter:
+      label: Введите ссылку на twitter страницу компании
+      default:  #
+    telegram:
+      label: Введите ссылку на telegram канал компании
+      default:  #
+    youtube:
+       label: Введите ссылку на youtube канал компании
+       default:  #

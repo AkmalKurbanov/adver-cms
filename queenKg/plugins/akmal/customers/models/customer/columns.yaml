@@ -1,0 +1,10 @@
+columns:
+    order:
+        label: order
+        type: number
+    customer:
+        label: customer
+        type: text
+    url:
+        label: url
+        type: text

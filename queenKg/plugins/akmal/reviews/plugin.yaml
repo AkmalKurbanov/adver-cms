@@ -1,0 +1,11 @@
+plugin:
+    name: 'akmal.reviews::lang.plugin.name'
+    description: 'akmal.reviews::lang.plugin.description'
+    author: Akmal
+    icon: oc-icon-pencil
+    homepage: ''
+navigation:
+    Review:
+        label: Комментари
+        url: akmal/reviews/rewiews
+        icon: icon-pencil

@@ -1,0 +1,38 @@
+[builderList portfolio]
+modelClass = "Akmal\Portfolio\Models\Work"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "img"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[viewBag]
+==
+<section class="portfolio darkbg" id="portfolio">
+   <div class="container">
+     <div class="title">
+       <div class="title__rectangle"></div>
+       <div><span class="title__secondary">Портфолио</span> <span class="title__main">Наши работы скажут за нас</span>
+       </div>
+     </div>
+     <div class="portfolio__slider">
+       <div class="slider__portfolio">
+
+         <div class="portfolio__group">
+
+           {% for item in portfolio.records %}
+           <a href="{{item.url}}" class="portfolio__link" target="_blank" style="background-size: cover; background-position: center center;background-repeat: no-repeat; background-image:
+              url('{{item.image.path}}');">
+             <div class="portfolio__darker"></div>
+           </a>
+           {% endfor %}
+
+         </div>
+
+       </div>
+       <a href="#contact" class="portfolio__button">Связаться</a>
+     </div>
+   </div>
+ </section>

@@ -1,0 +1,11 @@
+plugin:
+    name: 'akmal.advantages::lang.plugin.name'
+    description: 'akmal.advantages::lang.plugin.description'
+    author: Akmal
+    icon: oc-icon-adn
+    homepage: ''
+navigation:
+    Advantages:
+        label: Преимущества
+        url: akmal/advantages/advantages
+        icon: icon-adn

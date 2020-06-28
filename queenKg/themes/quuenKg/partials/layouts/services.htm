@@ -1,0 +1,38 @@
+[builderList services]
+modelClass = "Akmal\Uslugi\Models\Service"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[viewBag]
+==
+<section class="services lightbg" id="services">
+  <div class="container">
+    <div class="title">
+      <div class="title__rectangle"></div>
+      <div><span class="title__secondary">Наши услуги</span> <span class="title__main">Профессиональный сервис от
+          нашей команды</span>
+      </div>
+    </div>
+    <div class="services__group">
+
+      {% for item in services.records %}
+      <section class="services__object"><span class="services__title">{{item.title}}</span>
+        <ul>
+          {% for item in item.items %}
+          <li class="services__subtitle">
+            <span class="services__rectangle"></span>
+            <span>{{item.title}} </span>
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>

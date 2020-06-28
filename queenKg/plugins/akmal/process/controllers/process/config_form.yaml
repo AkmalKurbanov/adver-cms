@@ -1,0 +1,10 @@
+name: Process
+form: $/akmal/process/models/processe/fields.yaml
+modelClass: Akmal\Process\Models\Processe
+defaultRedirect: akmal/process/process
+create:
+    redirect: 'akmal/process/process/update/:id'
+    redirectClose: akmal/process/process
+update:
+    redirect: akmal/process/process
+    redirectClose: akmal/process/process

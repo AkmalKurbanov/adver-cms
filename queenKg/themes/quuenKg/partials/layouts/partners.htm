@@ -1,0 +1,28 @@
+[viewBag]
+
+[builderList customers]
+modelClass = "Akmal\Customers\Models\Customer"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "images"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+<section class="partners lightbg" id="partners">
+    <div class="container">
+      <div class="title">
+        <div class="title__rectangle"></div>
+        <div><span class="title__secondary">Клиенты</span> <span class="title__main">Нам доверяют:</span></div>
+      </div>
+      <div class="owl-carousel slider__partners partners__group">
+
+
+        {% for item in customers.records %}
+        <img src="{{item.customer.path}}" alt="" class="partners__img">
+        {% endfor %}
+
+
+      </div>
+  </section>

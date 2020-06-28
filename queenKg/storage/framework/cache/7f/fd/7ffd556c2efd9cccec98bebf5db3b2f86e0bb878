@@ -1,0 +1,51 @@
+1593371034a:1:{s:19:"layouts/process.htm";a:7:{s:8:"fileName";s:19:"layouts/process.htm";s:7:"content";s:1050:"[builderList processes]
+modelClass = "Akmal\Process\Models\Processe"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[viewBag]
+==
+<section class="process lightbg" id="process">
+    <div class="container">
+      <div class="title">
+        <div class="title__rectangle"></div>
+        <div><span class="title__secondary">Процесс</span> <span class="title__main">Процесс создания проекта</span>
+        </div>
+      </div>
+      <section class="process__group">
+
+        {% for item in processes.records %}
+        <ul class="process__object">
+          <li class="process__number">{{item.order}}</li>
+          <li class="process__icon"><span class="{{item.icon}}"></span></li>
+          <li class="process__title">{{item.title}}</li>
+          <li class="process__subtitle">{{item.description}}</li>
+        </ul>
+        {% endfor %}
+      </section>
+    </div>
+  </section>";s:5:"mtime";i:1593369801;s:6:"markup";s:793:"<section class="process lightbg" id="process">
+    <div class="container">
+      <div class="title">
+        <div class="title__rectangle"></div>
+        <div><span class="title__secondary">Процесс</span> <span class="title__main">Процесс создания проекта</span>
+        </div>
+      </div>
+      <section class="process__group">
+
+        {% for item in processes.records %}
+        <ul class="process__object">
+          <li class="process__number">{{item.order}}</li>
+          <li class="process__icon"><span class="{{item.icon}}"></span></li>
+          <li class="process__title">{{item.title}}</li>
+          <li class="process__subtitle">{{item.description}}</li>
+        </ul>
+        {% endfor %}
+      </section>
+    </div>
+  </section>";s:4:"code";N;s:21:"builderList processes";a:8:{s:10:"modelClass";s:29:"Akmal\Process\Models\Processe";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:7:"viewBag";a:0:{}}}

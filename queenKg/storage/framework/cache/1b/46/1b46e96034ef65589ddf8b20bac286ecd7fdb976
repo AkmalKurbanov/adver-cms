@@ -1,0 +1,63 @@
+1593371193a:1:{s:21:"layouts/portfolio.htm";a:7:{s:8:"fileName";s:21:"layouts/portfolio.htm";s:7:"content";s:1227:"[builderList portfolio]
+modelClass = "Akmal\Portfolio\Models\Work"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "img"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[viewBag]
+==
+<section class="portfolio darkbg" id="portfolio">
+   <div class="container">
+     <div class="title">
+       <div class="title__rectangle"></div>
+       <div><span class="title__secondary">Портфолио</span> <span class="title__main">Наши работы скажут за нас</span>
+       </div>
+     </div>
+     <div class="portfolio__slider">
+       <div class="slider__portfolio">
+
+         <div class="portfolio__group">
+
+           {% for item in portfolio.records %}
+           <a href="{{item.url}}" class="portfolio__link" target="_blank" style="background-size: cover; background-position: center center;background-repeat: no-repeat; background-image:
+              url('{{item.image.path}}');">
+             <div class="portfolio__darker"></div>
+           </a>
+           {% endfor %}
+
+         </div>
+
+       </div>
+       <a href="#contact" class="portfolio__button">Связаться</a>
+     </div>
+   </div>
+ </section>";s:5:"mtime";i:1593370590;s:6:"markup";s:974:"<section class="portfolio darkbg" id="portfolio">
+   <div class="container">
+     <div class="title">
+       <div class="title__rectangle"></div>
+       <div><span class="title__secondary">Портфолио</span> <span class="title__main">Наши работы скажут за нас</span>
+       </div>
+     </div>
+     <div class="portfolio__slider">
+       <div class="slider__portfolio">
+
+         <div class="portfolio__group">
+
+           {% for item in portfolio.records %}
+           <a href="{{item.url}}" class="portfolio__link" target="_blank" style="background-size: cover; background-position: center center;background-repeat: no-repeat; background-image:
+              url('{{item.image.path}}');">
+             <div class="portfolio__darker"></div>
+           </a>
+           {% endfor %}
+
+         </div>
+
+       </div>
+       <a href="#contact" class="portfolio__button">Связаться</a>
+     </div>
+   </div>
+ </section>";s:4:"code";N;s:21:"builderList portfolio";a:8:{s:10:"modelClass";s:27:"Akmal\Portfolio\Models\Work";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:3:"img";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:7:"viewBag";a:0:{}}}

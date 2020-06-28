@@ -1,0 +1,4 @@
+title: MainSlider
+modelClass: Akmal\Mainslider\Models\Sliders
+toolbar:
+    buttons: reorder_toolbar

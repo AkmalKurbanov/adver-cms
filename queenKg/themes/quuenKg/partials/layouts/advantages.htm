@@ -1,0 +1,33 @@
+[builderList advantages]
+modelClass = "Akmal\Advantages\Models\Advantage"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[viewBag]
+==
+<section class="advantages darkbg" id="advantages">
+   <div class="container">
+     <div class="title">
+       <div class="title__rectangle"></div>
+       <div><span class="title__secondary">Преимущества</span> <span class="title__main">Мы знаем свои сильные
+           стороны</span>
+       </div>
+     </div>
+     <div class="advantages__group">
+
+       {% for item in advantages.records %}
+       <ul class="advantages__object">
+         <li class="advantages__icon"><span class="{{item.icon}}"></span></li>
+         <li class="advantages__title">{{item.title}}</li>
+         <li class="advantages__subtitle">{{item.description}}</li>
+       </ul>
+       {% endfor %}
+
+     </div>
+   </div>
+ </section>

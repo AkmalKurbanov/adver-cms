@@ -1,0 +1,4 @@
+columns:
+    title:
+        label: 'Виды услуг'
+        type: text

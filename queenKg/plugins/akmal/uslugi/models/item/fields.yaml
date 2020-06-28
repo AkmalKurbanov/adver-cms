@@ -1,0 +1,11 @@
+fields:
+    title:
+        label: Заголовок
+        span: auto
+        type: text
+    service:
+        label: Relation
+        nameFrom: title
+        descriptionFrom: description
+        span: auto
+        type: relation

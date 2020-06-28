@@ -1,0 +1,20 @@
+plugin:
+    name: 'akmal.uslugi::lang.plugin.name'
+    description: 'akmal.uslugi::lang.plugin.description'
+    author: Akmal
+    icon: oc-icon-gears
+    homepage: ''
+navigation:
+    Service:
+        label: Услуги
+        url: akmal/uslugi/items
+        icon: icon-gears
+        sideMenu:
+            items:
+                label: 'Подвиды услуг'
+                url: akmal/uslugi/items
+                icon: icon-list
+            services:
+                label: 'Виды услуг'
+                url: akmal/uslugi/services
+                icon: icon-gears

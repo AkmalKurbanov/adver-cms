@@ -1,0 +1,13 @@
+fields:
+    title:
+        label: 'Заголовок преимущества'
+        span: auto
+        type: text
+    description:
+        label: 'Описание преимущества'
+        span: auto
+        type: text
+    icon:
+        label: 'Иконка преимущества'
+        span: auto
+        type: text

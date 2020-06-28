@@ -1,0 +1,20 @@
+1593371262a:1:{s:26:"layouts/secondary_menu.htm";a:7:{s:8:"fileName";s:26:"layouts/secondary_menu.htm";s:7:"content";s:236:"[viewBag]
+
+[staticMenu]
+code = "secondary_menu"
+==
+{% set items = staticMenu.menuItems() %}
+
+
+<div class="footer__nav">
+  {% for item in items %}
+  <a href="{{ item.url }}" class="footer__link">{{ item.title }}</a>
+  {% endfor %}
+</div>";s:5:"mtime";i:1592989014;s:6:"markup";s:185:"{% set items = staticMenu.menuItems() %}
+
+
+<div class="footer__nav">
+  {% for item in items %}
+  <a href="{{ item.url }}" class="footer__link">{{ item.title }}</a>
+  {% endfor %}
+</div>";s:4:"code";N;s:7:"viewBag";a:0:{}s:10:"staticMenu";a:1:{s:4:"code";s:14:"secondary_menu";}}}

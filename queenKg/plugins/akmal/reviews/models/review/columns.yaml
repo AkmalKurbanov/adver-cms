@@ -1,0 +1,10 @@
+columns:
+    name:
+        label: 'Имя комментатора'
+        type: text
+    text:
+        label: Комментарий
+        type: text
+    reviewer:
+        label: 'Фото комментатора'
+        type: text

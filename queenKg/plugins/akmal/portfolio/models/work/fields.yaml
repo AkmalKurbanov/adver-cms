@@ -1,0 +1,21 @@
+fields:
+    order:
+        label: 'Порядок работы'
+        span: auto
+        type: number
+    url:
+        label: 'Ссылка на работу'
+        span: auto
+        type: text
+    image:
+        label: 'Изображение работы'
+        mode: image
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        trigger:
+            action: ''
+            field: image
+        type: fileupload

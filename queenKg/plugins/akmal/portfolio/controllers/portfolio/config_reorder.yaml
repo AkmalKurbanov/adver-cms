@@ -1,0 +1,4 @@
+title: Portfolio
+modelClass: Akmal\Portfolio\Models\Work
+toolbar:
+    buttons: reorder_toolbar

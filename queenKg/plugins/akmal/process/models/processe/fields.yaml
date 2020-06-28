@@ -1,0 +1,17 @@
+fields:
+    title:
+        label: 'Заголовок процесса'
+        span: auto
+        type: text
+    description:
+        label: 'Описание процесса'
+        span: auto
+        type: text
+    icon:
+        label: 'Иконка процесса'
+        span: auto
+        type: text
+    order:
+        label: 'Порядок процесса'
+        span: auto
+        type: number

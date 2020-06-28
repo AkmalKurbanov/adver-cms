@@ -1,0 +1,11 @@
+plugin:
+    name: 'akmal.customers::lang.plugin.name'
+    description: 'akmal.customers::lang.plugin.description'
+    author: Akmal
+    icon: oc-icon-users
+    homepage: ''
+navigation:
+    Customers:
+        label: Клиенты
+        url: akmal/customers/customers
+        icon: icon-users

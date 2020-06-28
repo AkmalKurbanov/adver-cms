@@ -1,0 +1,341 @@
+1593371550a:1:{s:8:"home.htm";a:12:{s:8:"fileName";s:8:"home.htm";s:7:"content";s:9548:"title = "Demonstration"
+url = "/"
+layout = "default"
+is_hidden = 0
+robot_index = "index"
+robot_follow = "follow"
+
+[genericForm]
+rules[Имя] = "required"
+rules[Телефон] = "required"
+messages_success = "Ваша заявка была успешно отправлена!"
+messages_errors = "В вашей заявке содержатся ошибки."
+mail_enabled = 1
+mail_subject = "Обратный званок"
+mail_recipients[] = "a.rysbaeva@queen.kg"
+reset_form = 1
+inline_errors = "disabled"
+sanitize_data = "disabled"
+anonymize_ip = "disabled"
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+emails_date_format = "Y-m-d"
+==
+<div class="wrapper">
+
+
+
+
+  {% partial 'layouts/main_slider' %}
+
+
+
+  <div class="scroll__up"><span class="icon-up-dir scroll__icon"></span></div>
+  
+
+  {% partial 'layouts/services' %}
+  {% partial 'layouts/advantages' %}
+  {% partial 'layouts/process' %}
+  {% partial 'layouts/portfolio' %}
+  {% partial 'layouts/partners' %}
+  
+  
+  
+  
+  
+  <section class="technology darkbg" id="technology">
+    <div class="container">
+      <div class="title">
+        <div class="title__rectangle"></div>
+        <div><span class="title__secondary">Технологии</span> <span class="title__main">Мы используем самые современные
+          технологии</span>
+        </div>
+      </div>
+      <div class="technology__group">
+        <ul class="technology__object">
+          <li class="technology__title">Фронтенд</li>
+          <ul class="technology__cards-group">
+            <li class="technology__card"><img src="{{ 'assets/images/technology/js.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">JavaScript</span></li>
+              <li class="technology__card"><img src="{{ 'assets/images/technology/bt4.png'|theme }}"
+                class="technology__img" alt="#"> <span class="technology__card-title">Bootstrap4</span></li>
+            <li class="technology__card"><img src="{{ 'assets/images/technology/react.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">ReactJS</span>
+            </li>
+            <li class="technology__card"><img src="{{ 'assets/images/technology/vue.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">Vue</span></li>
+              <li class="technology__card"><img src="{{ 'assets/images/technology/babel.png'|theme }}"
+                class="technology__img" alt="#"> <span class="technology__card-title">Babel</span>
+              </li>
+              <li class="technology__card"><img src="{{ 'assets/images/technology/webpack.png'|theme }}"
+                class="technology__img" alt="#"> <span class="technology__card-title">WebPack</span>
+              </li>
+            </ul>
+          </ul>
+          <ul class="technology__object">
+            <li class="technology__title">Бэкенд</li>
+            <ul class="technology__cards-group">
+              <li class="technology__card"><img src="{{ 'assets/images/technology/php.png'|theme }}"
+                class="technology__img" alt="#"> <span class="technology__card-title">PHP</span></li>
+                <li class="technology__card"><img src="{{ 'assets/images/technology/symfony.png'|theme }}"
+                  class="technology__img" alt="#"> <span class="technology__card-title">Symfony</span>
+                </li>
+                <li class="technology__card"><img src="{{ 'assets/images/technology/yii.png'|theme }}"
+                  class="technology__img" alt="#"> <span class="technology__card-title">Yii</span></li>
+                  <li class="technology__card"><img src="{{ 'assets/images/technology/laravel.png'|theme }}"
+                    class="technology__img" alt="#"> <span class="technology__card-title">Laravel</span>
+                  </li>
+                  <li class="technology__card"><img src="{{ 'assets/images/technology/codeigniter.png'|theme }}"
+                    class="technology__img" alt="#"> <span class="technology__card-title">Codeigniter</span></li>
+                    <li class="technology__card"><img src="{{ 'assets/images/technology/mysql.png'|theme }}"
+                      class="technology__img" alt="#"> <span class="technology__card-title">MySQL</span>
+                    </li>
+                  </ul>
+                </ul>
+                <ul class="technology__object">
+                  <li class="technology__title">Дизайн</li>
+                  <ul class="technology__cards-group">
+                    <li class="technology__card"><img src="{{ 'assets/images/technology/ps.png'|theme }}"
+                      class="technology__img" alt="#"> <span class="technology__card-title">Photoshop</span>
+                    </li>
+                    <li class="technology__card"><img src="{{ 'assets/images/technology/il.png'|theme }}"
+                      class="technology__img" alt="#"> <span class="technology__card-title">Illustrator</span></li>
+                      <li class="technology__card"><img src="{{ 'assets/images/technology/xd.png'|theme }}"
+                        class="technology__img" alt="#"> <span class="technology__card-title">XD</span></li>
+                        <li class="technology__card"><img src="{{ 'assets/images/technology/id.png'|theme }}"
+                          class="technology__img" alt="#"> <span class="technology__card-title">InDesign</span>
+                        </li>
+                        <li class="technology__card mr"><img src="{{ 'assets/images/technology/cd.png'|theme }}"
+                class="technology__img" alt="#"> <span class="technology__card-title">CorelDraw</span></li>
+                <li class="technology__card mr"><img src="{{ 'assets/images/technology/scetch.png'|theme }}"
+                  class="technology__img" alt="#"> <span class="technology__card-title">Scetch</span>
+                </li>
+              </ul>
+            </ul>
+            <ul class="technology__object">
+              <li class="technology__title">Управление проектами</li>
+          <ul class="technology__cards-group">
+            <li class="technology__card"><img src="{{ 'assets/images/technology/slack.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">Slack</span>
+            </li>
+            <li class="technology__card"><img src="{{ 'assets/images/technology/trello.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">Trello</span>
+            </li>
+            <li class="technology__card"><img src="{{ 'assets/images/technology/skype.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">Skype</span>
+            </li>
+            <li class="technology__card"><img src="{{ 'assets/images/technology/jira.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">Jira</span></li>
+            </ul>
+          </ul>
+        </div>
+    </div>
+  </section>
+  
+  {% partial 'layouts/reviews' %}
+
+  
+  
+  <section class="contact darkbg" id="contact">
+    <div class="container">
+      <div class="title">
+        <div class="title__rectangle"></div>
+        <div><span class="title__secondary">Контакты</span> <span class="title__main">Оставьте данные и мы свяжемся с
+          Вами</span>
+        </div>
+      </div>
+      <div class="contact__group">
+        <form data-request="genericForm::onFormSubmit" class="contact__forms">
+          {{ form_token() }}
+          <input type="text" name="Имя" placeholder="Ваше имя" class="contact__form contact__form_input" id="name"
+            required>
+          <input type="text" name="Телефон" placeholder="Ваш номер" class="contact__form contact__form_input"
+            id="number" required>
+          <input type="email" name="Email" placeholder="Ваш email"
+            class="contact__form contact__form_input contact__form_last" id="email" required>
+          <textarea type="text" name="Сообщение" class="contact__form contact__form_message"
+            placeholder="Чем мы можем помочь?" id="message">
+
+                    </textarea>
+          <div id="genericForm_forms_flash"></div>
+          <button type="submit" class="contact__button" value="Submit">Отправить</button>
+        </form>
+        <div class="contact__info">
+          <div class="contact__detail">
+            <div class="icon-placeholder contact__icon"></div>
+            <div class="contact__link contact__address">{{ this.theme.address }}</div>
+          </div>
+          <div class="contact__detail">
+            <div class="icon-telephone contact__icon"></div>
+            <div><a href="tel:{{ this.theme.first_phone }}" class="contact__link">{{ this.theme.first_phone }}</a>
+              <a href="tel:{{ this.theme.second_phone }}" class="contact__link">{{ this.theme.second_phone }}</a></div>
+          </div>
+          <div class="contact__detail">
+            <div class="icon-email contact__icon"></div>
+            <a href="mailto:{{ this.theme.email }}" class="contact__link">{{ this.theme.email }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>";s:5:"mtime";i:1593370947;s:6:"markup";s:8877:"<div class="wrapper">
+
+
+
+
+  {% partial 'layouts/main_slider' %}
+
+
+
+  <div class="scroll__up"><span class="icon-up-dir scroll__icon"></span></div>
+  
+
+  {% partial 'layouts/services' %}
+  {% partial 'layouts/advantages' %}
+  {% partial 'layouts/process' %}
+  {% partial 'layouts/portfolio' %}
+  {% partial 'layouts/partners' %}
+  
+  
+  
+  
+  
+  <section class="technology darkbg" id="technology">
+    <div class="container">
+      <div class="title">
+        <div class="title__rectangle"></div>
+        <div><span class="title__secondary">Технологии</span> <span class="title__main">Мы используем самые современные
+          технологии</span>
+        </div>
+      </div>
+      <div class="technology__group">
+        <ul class="technology__object">
+          <li class="technology__title">Фронтенд</li>
+          <ul class="technology__cards-group">
+            <li class="technology__card"><img src="{{ 'assets/images/technology/js.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">JavaScript</span></li>
+              <li class="technology__card"><img src="{{ 'assets/images/technology/bt4.png'|theme }}"
+                class="technology__img" alt="#"> <span class="technology__card-title">Bootstrap4</span></li>
+            <li class="technology__card"><img src="{{ 'assets/images/technology/react.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">ReactJS</span>
+            </li>
+            <li class="technology__card"><img src="{{ 'assets/images/technology/vue.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">Vue</span></li>
+              <li class="technology__card"><img src="{{ 'assets/images/technology/babel.png'|theme }}"
+                class="technology__img" alt="#"> <span class="technology__card-title">Babel</span>
+              </li>
+              <li class="technology__card"><img src="{{ 'assets/images/technology/webpack.png'|theme }}"
+                class="technology__img" alt="#"> <span class="technology__card-title">WebPack</span>
+              </li>
+            </ul>
+          </ul>
+          <ul class="technology__object">
+            <li class="technology__title">Бэкенд</li>
+            <ul class="technology__cards-group">
+              <li class="technology__card"><img src="{{ 'assets/images/technology/php.png'|theme }}"
+                class="technology__img" alt="#"> <span class="technology__card-title">PHP</span></li>
+                <li class="technology__card"><img src="{{ 'assets/images/technology/symfony.png'|theme }}"
+                  class="technology__img" alt="#"> <span class="technology__card-title">Symfony</span>
+                </li>
+                <li class="technology__card"><img src="{{ 'assets/images/technology/yii.png'|theme }}"
+                  class="technology__img" alt="#"> <span class="technology__card-title">Yii</span></li>
+                  <li class="technology__card"><img src="{{ 'assets/images/technology/laravel.png'|theme }}"
+                    class="technology__img" alt="#"> <span class="technology__card-title">Laravel</span>
+                  </li>
+                  <li class="technology__card"><img src="{{ 'assets/images/technology/codeigniter.png'|theme }}"
+                    class="technology__img" alt="#"> <span class="technology__card-title">Codeigniter</span></li>
+                    <li class="technology__card"><img src="{{ 'assets/images/technology/mysql.png'|theme }}"
+                      class="technology__img" alt="#"> <span class="technology__card-title">MySQL</span>
+                    </li>
+                  </ul>
+                </ul>
+                <ul class="technology__object">
+                  <li class="technology__title">Дизайн</li>
+                  <ul class="technology__cards-group">
+                    <li class="technology__card"><img src="{{ 'assets/images/technology/ps.png'|theme }}"
+                      class="technology__img" alt="#"> <span class="technology__card-title">Photoshop</span>
+                    </li>
+                    <li class="technology__card"><img src="{{ 'assets/images/technology/il.png'|theme }}"
+                      class="technology__img" alt="#"> <span class="technology__card-title">Illustrator</span></li>
+                      <li class="technology__card"><img src="{{ 'assets/images/technology/xd.png'|theme }}"
+                        class="technology__img" alt="#"> <span class="technology__card-title">XD</span></li>
+                        <li class="technology__card"><img src="{{ 'assets/images/technology/id.png'|theme }}"
+                          class="technology__img" alt="#"> <span class="technology__card-title">InDesign</span>
+                        </li>
+                        <li class="technology__card mr"><img src="{{ 'assets/images/technology/cd.png'|theme }}"
+                class="technology__img" alt="#"> <span class="technology__card-title">CorelDraw</span></li>
+                <li class="technology__card mr"><img src="{{ 'assets/images/technology/scetch.png'|theme }}"
+                  class="technology__img" alt="#"> <span class="technology__card-title">Scetch</span>
+                </li>
+              </ul>
+            </ul>
+            <ul class="technology__object">
+              <li class="technology__title">Управление проектами</li>
+          <ul class="technology__cards-group">
+            <li class="technology__card"><img src="{{ 'assets/images/technology/slack.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">Slack</span>
+            </li>
+            <li class="technology__card"><img src="{{ 'assets/images/technology/trello.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">Trello</span>
+            </li>
+            <li class="technology__card"><img src="{{ 'assets/images/technology/skype.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">Skype</span>
+            </li>
+            <li class="technology__card"><img src="{{ 'assets/images/technology/jira.png'|theme }}"
+              class="technology__img" alt="#"> <span class="technology__card-title">Jira</span></li>
+            </ul>
+          </ul>
+        </div>
+    </div>
+  </section>
+  
+  {% partial 'layouts/reviews' %}
+
+  
+  
+  <section class="contact darkbg" id="contact">
+    <div class="container">
+      <div class="title">
+        <div class="title__rectangle"></div>
+        <div><span class="title__secondary">Контакты</span> <span class="title__main">Оставьте данные и мы свяжемся с
+          Вами</span>
+        </div>
+      </div>
+      <div class="contact__group">
+        <form data-request="genericForm::onFormSubmit" class="contact__forms">
+          {{ form_token() }}
+          <input type="text" name="Имя" placeholder="Ваше имя" class="contact__form contact__form_input" id="name"
+            required>
+          <input type="text" name="Телефон" placeholder="Ваш номер" class="contact__form contact__form_input"
+            id="number" required>
+          <input type="email" name="Email" placeholder="Ваш email"
+            class="contact__form contact__form_input contact__form_last" id="email" required>
+          <textarea type="text" name="Сообщение" class="contact__form contact__form_message"
+            placeholder="Чем мы можем помочь?" id="message">
+
+                    </textarea>
+          <div id="genericForm_forms_flash"></div>
+          <button type="submit" class="contact__button" value="Submit">Отправить</button>
+        </form>
+        <div class="contact__info">
+          <div class="contact__detail">
+            <div class="icon-placeholder contact__icon"></div>
+            <div class="contact__link contact__address">{{ this.theme.address }}</div>
+          </div>
+          <div class="contact__detail">
+            <div class="icon-telephone contact__icon"></div>
+            <div><a href="tel:{{ this.theme.first_phone }}" class="contact__link">{{ this.theme.first_phone }}</a>
+              <a href="tel:{{ this.theme.second_phone }}" class="contact__link">{{ this.theme.second_phone }}</a></div>
+          </div>
+          <div class="contact__detail">
+            <div class="icon-email contact__icon"></div>
+            <a href="mailto:{{ this.theme.email }}" class="contact__link">{{ this.theme.email }}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>";s:4:"code";N;s:5:"title";s:13:"Demonstration";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:11:"genericForm";a:14:{s:5:"rules";a:2:{s:6:"Имя";s:8:"required";s:14:"Телефон";s:8:"required";}s:16:"messages_success";s:67:"Ваша заявка была успешно отправлена!";s:15:"messages_errors";s:61:"В вашей заявке содержатся ошибки.";s:12:"mail_enabled";s:1:"1";s:12:"mail_subject";s:29:"Обратный званок";s:15:"mail_recipients";a:1:{i:0;s:19:"a.rysbaeva@queen.kg";}s:10:"reset_form";s:1:"1";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";s:18:"emails_date_format";s:5:"Y-m-d";}}}

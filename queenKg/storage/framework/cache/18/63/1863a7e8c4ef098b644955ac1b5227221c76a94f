@@ -1,0 +1,55 @@
+1593371535a:1:{s:19:"layouts/reviews.htm";a:7:{s:8:"fileName";s:19:"layouts/reviews.htm";s:7:"content";s:1168:"[builderList reviews]
+modelClass = "Akmal\Reviews\Models\Review"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "name"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[viewBag]
+==
+<section class="reviews lightbg" id="reviews">
+    <div class="container">
+      <div class="title">
+        <div class="title__rectangle"></div>
+        <div><span class="title__secondary">Отзывы</span> <span class="title__main">Наши клиенты о нас</span>
+        </div>
+      </div>
+      <div class="reviews__group">
+        {% for item in reviews.records %}
+        <section class="reviews__object">
+          <span class="reviews__icon icon-left-quote"></span>
+          <div class="reviews__review">
+            <div class="reviews__img" style="background-image: url('{{item.reviewer.path}}');"></div>
+            <div class="reviews__person"><span class="reviews__name">{{item.name}}</span> <span
+                class="reviews__text">{{item.text}}</span>
+            </div>
+          </div>
+        </section>
+        {% endfor %}
+      </div>
+    </div>
+  </section>";s:5:"mtime";i:1593370933;s:6:"markup";s:916:"<section class="reviews lightbg" id="reviews">
+    <div class="container">
+      <div class="title">
+        <div class="title__rectangle"></div>
+        <div><span class="title__secondary">Отзывы</span> <span class="title__main">Наши клиенты о нас</span>
+        </div>
+      </div>
+      <div class="reviews__group">
+        {% for item in reviews.records %}
+        <section class="reviews__object">
+          <span class="reviews__icon icon-left-quote"></span>
+          <div class="reviews__review">
+            <div class="reviews__img" style="background-image: url('{{item.reviewer.path}}');"></div>
+            <div class="reviews__person"><span class="reviews__name">{{item.name}}</span> <span
+                class="reviews__text">{{item.text}}</span>
+            </div>
+          </div>
+        </section>
+        {% endfor %}
+      </div>
+    </div>
+  </section>";s:4:"code";N;s:19:"builderList reviews";a:8:{s:10:"modelClass";s:27:"Akmal\Reviews\Models\Review";s:5:"scope";s:1:"-";s:10:"scopeValue";s:12:"{{ :scope }}";s:13:"displayColumn";s:4:"name";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:1:"-";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}s:7:"viewBag";a:0:{}}}

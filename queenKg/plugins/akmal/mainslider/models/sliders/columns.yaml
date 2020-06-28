@@ -1,0 +1,10 @@
+columns:
+    title:
+        label: 'Заголовок слайда'
+        type: text
+    created_at:
+        label: 'Дата слайда'
+        type: date
+    order:
+        label: 'Порядок слайда'
+        type: number

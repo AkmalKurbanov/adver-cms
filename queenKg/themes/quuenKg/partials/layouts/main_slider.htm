@@ -1,0 +1,23 @@
+[builderList mainslider]
+modelClass = "Akmal\Mainslider\Models\Sliders"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+
+[viewBag]
+==
+<section class="banner" id="banner">
+    <div class="container">
+      <div class="banner__slider">
+        <div class="owl-carousel slider-1 owl-theme banner__position">
+          {% for item in mainslider.records %}
+          <h1 class="banner__title">{{item.title}}</h1>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </section>

@@ -1,0 +1,10 @@
+columns:
+    title:
+        label: 'Заголовок преимущества'
+        type: text
+    description:
+        label: 'Описание преимущества'
+        type: text
+    icon:
+        label: 'Иконка преимущества'
+        type: text

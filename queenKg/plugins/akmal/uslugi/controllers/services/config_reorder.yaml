@@ -1,0 +1,4 @@
+title: Services
+modelClass: Akmal\Uslugi\Models\Service
+toolbar:
+    buttons: reorder_toolbar
